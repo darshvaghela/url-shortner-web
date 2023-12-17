@@ -1,7 +1,6 @@
 const url_prod = "https://apis-dcoding.vercel.app";
 // const url_prod = "http://localhost:5001";
-
-const web_prod = "http://localhot:3000";
+const web_prod = "https://url-shortner-dcoding.vercel.app";
 
 export const URLS = {
   REDIRECTION: `${web_prod}/redirection`,

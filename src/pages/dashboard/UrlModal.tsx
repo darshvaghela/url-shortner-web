@@ -25,7 +25,7 @@ const UrlModal: FC<IUrlModal> = ({ loading, password ,onReset}) => {
   const copyToClipboard = () => {
     navigator.clipboard.writeText(password);
     setCopied(true);
-    message.success("Password copied successfully!");
+    message.success("Url copied successfully!");
   };
 
   useEffect(() => {
